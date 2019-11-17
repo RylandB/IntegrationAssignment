@@ -40,6 +40,7 @@ public class CalculatorTest {
         Assert.assertEquals(11, result);
     }
 
+    @Test
     void failingTest(){
         Assert.assertEquals(1,2);
     }
