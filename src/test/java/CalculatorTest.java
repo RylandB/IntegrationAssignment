@@ -39,4 +39,8 @@ public class CalculatorTest {
 
         Assert.assertEquals(11, result);
     }
+
+    void failingTest(){
+        Assert.assertEquals(1,2);
+    }
 }
